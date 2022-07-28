@@ -5,15 +5,17 @@
 }
 body {
   font-family: "Poppins", sans-serif;
-  height: 10000px;
 }
 .banner {
   height: 33rem;
 }
 .carousel-item {
-  height: 490px;
+  height: 33rem;
   background-color: black;
+  overflow: hidden;
 }
 .carousel-item img {
+  width: 100%;
+  height: 100%;
   opacity: 0.5;
 }
